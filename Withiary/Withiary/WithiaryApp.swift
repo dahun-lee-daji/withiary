@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct WithiaryApp: App {
@@ -20,6 +21,12 @@ struct WithiaryApp: App {
 }
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
+    
+    let store = Store(
+        initialState: AppReducer.State()
+    ) {
+        AppReducer()
+    }
     
     func application(
         _ application: UIApplication,

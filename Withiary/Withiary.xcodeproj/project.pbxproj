@@ -13,6 +13,7 @@
 		B0A769E82AA783E000D85B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A769E72AA783E000D85B3D /* Preview Assets.xcassets */; };
 		B0A769F22AA783E000D85B3D /* WithiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A769F12AA783E000D85B3D /* WithiaryTests.swift */; };
 		B0A76A0C2AA7852A00D85B3D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B0A76A0B2AA7852A00D85B3D /* ComposableArchitecture */; };
+		B0A76A0E2AA789A500D85B3D /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A76A0D2AA789A500D85B3D /* AppReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		B0A769E72AA783E000D85B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0A769ED2AA783E000D85B3D /* WithiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WithiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A769F12AA783E000D85B3D /* WithiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithiaryTests.swift; sourceTree = "<group>"; };
+		B0A76A0D2AA789A500D85B3D /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				B0A769E22AA783DE00D85B3D /* ContentView.swift */,
 				B0A769E42AA783E000D85B3D /* Assets.xcassets */,
 				B0A769E62AA783E000D85B3D /* Preview Content */,
+				B0A76A0D2AA789A500D85B3D /* AppReducer.swift */,
 			);
 			path = Withiary;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A76A0E2AA789A500D85B3D /* AppReducer.swift in Sources */,
 				B0A769E32AA783DE00D85B3D /* ContentView.swift in Sources */,
 				B0A769E12AA783DE00D85B3D /* WithiaryApp.swift in Sources */,
 			);
