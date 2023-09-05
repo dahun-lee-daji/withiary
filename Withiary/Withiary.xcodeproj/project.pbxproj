@@ -77,11 +77,10 @@
 		B0A769DF2AA783DE00D85B3D /* Withiary */ = {
 			isa = PBXGroup;
 			children = (
-				B0A769E02AA783DE00D85B3D /* WithiaryApp.swift */,
+				B0A76A0F2AA78BB900D85B3D /* App */,
 				B0A769E22AA783DE00D85B3D /* ContentView.swift */,
 				B0A769E42AA783E000D85B3D /* Assets.xcassets */,
 				B0A769E62AA783E000D85B3D /* Preview Content */,
-				B0A76A0D2AA789A500D85B3D /* AppReducer.swift */,
 			);
 			path = Withiary;
 			sourceTree = "<group>";
@@ -100,6 +99,15 @@
 				B0A769F12AA783E000D85B3D /* WithiaryTests.swift */,
 			);
 			path = WithiaryTests;
+			sourceTree = "<group>";
+		};
+		B0A76A0F2AA78BB900D85B3D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0A769E02AA783DE00D85B3D /* WithiaryApp.swift */,
+				B0A76A0D2AA789A500D85B3D /* AppReducer.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
